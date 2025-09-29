@@ -10,6 +10,7 @@ services:
     - "5432:5432"
     volumes:
     - mtgai_db_data:/var/lib/postgresql/data
+    - ./init-user.sq;:/docker-entrypoint-initdb.d/init-user.sql
 volumes:
   mtgai_db_data: 
 

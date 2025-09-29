@@ -1,0 +1,1 @@
+ALTER USER HumaneCoder WITH PASSWORD 'testing';
